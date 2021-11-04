@@ -9,7 +9,7 @@
 }
 
 .start{
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 8px;
 }
 
@@ -38,7 +38,7 @@
 
 
 .search-box{
-    margin-left: 5%;
+    margin-left: 1%;
     width: 500px;
     height: 35px;
     border: 1px solid white;
@@ -53,10 +53,59 @@
     outline: none;
     flex: 1;
     background: none;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .s-icon{
     color: #2874f0;
     margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
 }
 
+.login{
+    margin-left: 35px;
+    margin-top: 13px;
+}
+
+.btn{
+    width: 120px;
+    height: 30px;
+    color: #2874f0;
+    font-family: sans-serif;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 520;
+}
+
+
+.dol{
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.down-icon{
+     margin-bottom: -6px;
+     font-size: small;
+}
+
+.cart{
+    margin-left: 35px;
+    margin-top: 16px;
+}
+
+.cart-logo{
+    margin-bottom: -2px;  
+}
+
+.opt{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family:sans-serif;
+}

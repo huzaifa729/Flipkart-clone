@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function Header() {
     return (
@@ -23,8 +25,24 @@ function Header() {
 
 
                   <div className="search-box">
-                   <input className="sarch" type="text" placeholder="Search"/>
+                   <input className="sarch" type="text" placeholder="Search for products,brands and more"/>
                     <SearchIcon className="s-icon"/>
+                  </div>
+
+                  <div className="login">
+                      <a href="/">
+                      <button className="btn">Login</button>
+                      </a>
+                  </div>
+
+                  <div className="dol">
+                      More<KeyboardArrowDownIcon fontSize="small" className="down-icon"/>
+                  </div>
+
+
+                  <div className="cart">
+                   <ShoppingCartIcon fontSize="small" className="cart-logo"/>
+                   <span className="opt">Cart</span>
                   </div>
           </div>
         </div>
