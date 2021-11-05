@@ -68,6 +68,7 @@
 .login{
     margin-left: 35px;
     margin-top: 13px;
+
 }
 
 .btn{
@@ -79,6 +80,7 @@
     font-size: 18px;
     text-align: center;
     font-weight: 520;
+    cursor: pointer;
 }
 
 
@@ -87,12 +89,19 @@
     margin-top: 15px;
     font-size: 18px;
     font-weight: 600;
+     /* cursor: pointer; */
 }
 
 
-.down-icon{
+.down-iscon{
      margin-bottom: -6px;
      font-size: small;
+  
+}
+
+.down-iscon:hover{
+    transform: rotate(180deg);
+    transition: 0.2s ease-in-out;
 }
 
 .cart{
@@ -109,3 +118,50 @@
     font-size: 20px;
     font-family:sans-serif;
 }
+
+
+.bint{
+    content: "";
+    position: absolute;
+    width: 205px;
+    height: 210px;
+    background-color: white;
+    visibility: hidden;
+    opacity: 3;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4);
+    /* transition: all 0.4s ease; */
+    z-index: 5;
+    top: 93%;
+   margin-left: -40px;
+}
+
+.dol:hover .bint{
+    visibility: visible;
+    opacity: 3;
+}
+
+.login:hover .bint{
+    visibility: visible;
+    opacity: 3;
+}
+
+.op{
+    margin-left: 5px;
+    margin-top: 15px;
+     display: flex; 
+     font-weight: bold;
+}
+
+.ocon{
+    color: #2874f0;
+    margin-left: 2px;
+}
+
+.writens{
+    color: black;
+    font-size: 14px;
+    margin-left: 8px;
+    font-family:sans-serif;
+  
+}
+
