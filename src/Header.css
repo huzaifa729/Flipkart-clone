@@ -65,13 +65,13 @@
     cursor: pointer;
 }
 
-.login{
+.loginse{
     margin-left: 35px;
     margin-top: 13px;
 
 }
 
-.btn{
+.btner{
     width: 120px;
     height: 30px;
     color: #2874f0;
@@ -140,7 +140,7 @@
     opacity: 3;
 }
 
-.login:hover .bint{
+.loginse:hover .bint{
     visibility: visible;
     opacity: 3;
 }

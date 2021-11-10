@@ -39,9 +39,9 @@ function Header() {
                     <SearchIcon className="s-icon"/>
                   </div>
 
-                  <div className="login">
+                  <div className="loginse">
                       <a href="/">
-                      <button className="btn">Login</button>
+                      <button className="btner">Login</button>
                    </a>
                       <div className="bint">
                           <div className="sint">
