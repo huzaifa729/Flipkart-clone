@@ -110,7 +110,7 @@
 }
 
 .cart-logo{
-    margin-bottom: -2px;  
+    margin-bottom: 6px;  
 }
 
 .opt{
@@ -162,6 +162,6 @@
     font-size: 14px;
     margin-left: 8px;
     font-family:sans-serif;
-  
+    margin-top: 3px;
 }
 

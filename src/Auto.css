@@ -1,0 +1,38 @@
+img{
+    width: 320px;
+    
+}
+
+.bik{
+    color: red;
+}
+
+.BrainhubCarousel__arrows {
+     position: relative; 
+    padding: 21px;
+    border: none;
+    overflow: hidden;
+    outline: 0;
+    font-size: 0;
+    line-height: 0;
+    background-color: black;
+}
+
+/* .BrainhubCarousel__arrows:hover:disabled {
+    background-color: red;
+} */
+
+/* .deny{
+    max-width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+} */
+
+.BrainhubCarousel__arrows:hover:enabled{
+    background-color: black;
+    color: red;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
