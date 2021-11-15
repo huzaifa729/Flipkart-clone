@@ -1,5 +1,7 @@
-img{
-    width: 320px;
+.nuy img{
+    width: 180px;
+    object-fit: contain;
+    height: 130px;
     
 }
 
@@ -16,17 +18,24 @@ img{
     font-size: 0;
     line-height: 0;
     background-color: black;
+    margin-top: -25px;
+    margin-left: 10px;
+    height: 60px;
+    width: 50px;
+    border-radius: 3px;
 }
 
 /* .BrainhubCarousel__arrows:hover:disabled {
     background-color: red;
 } */
 
-/* .deny{
-    max-width: 90%;
-    margin-top: 10%;
-    margin-left: 5%;
-} */
+ .deny{
+    
+    margin-top: 5%;
+    margin-left: 1%;
+    max-width: 95%;
+
+} 
 
 .BrainhubCarousel__arrows:hover:enabled{
     background-color: black;
@@ -35,4 +44,57 @@ img{
 
 button:focus:not(:focus-visible) {
     outline: 0;
+}
+
+.num{
+    color: #388e3c;
+    
+}
+
+.middle{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dop a{
+    text-decoration: none;
+    color: black;
+}
+
+.dfrt{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sells{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.don{
+    display: flex;
+
+}
+
+.hyi{
+    width: 90%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+.btnse{
+    background-color: #2874f0;
+    color: white;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+
+.dop{
+    margin-top: 20px;
 }

@@ -20,11 +20,11 @@
     font-weight: 590;
 }
 
-a{
+ .all-photoes a{
     text-decoration: none;
     color: black;
 }
 
-.all-photoes a:hover{
+.all-photoes>a:hover{
     color: #2874f0;
 }
