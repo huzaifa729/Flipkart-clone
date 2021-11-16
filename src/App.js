@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Header';
 import Header2 from './Header2';
 import Auto from './Auto';
+import Auto2 from './Auto2';
 function App() {
   return (
     <div className="App">
@@ -11,7 +12,8 @@ function App() {
      <Header2/>
      <Slider/>
      <Auto/>
-    </div>
+     <Auto2/>
+</div>
   );
 }
 

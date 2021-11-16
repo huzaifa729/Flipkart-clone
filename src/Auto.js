@@ -199,13 +199,9 @@ function Auto() {
 </div>
 </a>
 </div>
-
-
-
 </Carousel>
 </div>
-
-    )
+)
 }
 
 export default Auto
