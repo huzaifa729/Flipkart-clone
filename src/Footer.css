@@ -26,3 +26,17 @@
 .ki:hover{
     color: black;
 }
+
+.downi{
+    margin-top: 20px;
+}
+
+.hu{
+    color: #878787;
+    font-weight: 600;
+}
+
+.para{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
