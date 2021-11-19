@@ -7,6 +7,7 @@ import Auto from './Auto';
 import Auto2 from './Auto2';
 import Auto3 from './Auto3';
 import Auto4 from './Auto4';
+import Footer from './Footer';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
      <Auto2/>
      <Auto3/>
      <Auto4/>
+     <Footer/>
 </div>
   );
 }

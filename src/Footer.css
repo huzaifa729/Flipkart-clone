@@ -1,0 +1,28 @@
+.All{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.po a{
+    color: black;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.binj{
+    margin-top: 15px;
+}
+
+
+.ki{
+    border-right: 1px solid #333;
+    margin-left: 2px;
+    color: black;
+    text-decoration: none;  
+    padding: 0px 5px;
+    font-size: 14px;
+}
+
+.ki:hover{
+    color: black;
+}
