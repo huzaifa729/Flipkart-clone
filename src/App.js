@@ -8,9 +8,25 @@ import Auto2 from './Auto2';
 import Auto3 from './Auto3';
 import Auto4 from './Auto4';
 import Footer from './Footer';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+ 
+} from "react-router-dom";
+import MenFootwear from './MenFootwear';
 function App() {
   return (
+    <Router>
     <div className="App">
+    <Switch>
+    <Route path="/menfootwear">
+     <Header/>
+     <MenFootwear/>
+     </Route>
+
+   <Route path="/">
      <Header/>
      <Header2/>
      <Slider/>
@@ -19,7 +35,10 @@ function App() {
      <Auto3/>
      <Auto4/>
      <Footer/>
+     </Route>
+    </Switch>
 </div>
+</Router>
   );
 }
 

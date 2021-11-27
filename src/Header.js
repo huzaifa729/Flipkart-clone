@@ -13,6 +13,7 @@ import AssistantSharpIcon from '@mui/icons-material/AssistantSharp';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import AttachEmailIcon from '@mui/icons-material/AttachEmail';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -20,17 +21,20 @@ function Header() {
           <div className="Bgcolr">
             
             <div className="start">
+            <Link to="/">
                 <div className="image">
-                    <a href="/">
-                    <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="any"/></a>
+                    {/* <a href="/"> */}
+                    <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="any"/>
+                    {/* </a> */}
                     </div>
 
-                    <div className="plus">
-                        <a href="/">
-                    Explore <span className="pol">Plus</span> 
+                    <span className="plus">
+                        {/* <a href="/"> */}
+                    <span className="pol"> Explore Plus</span> 
                     <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png" alt="any"/>                   
-                </a>
-                </div>
+                {/* </a> */}
+                </span>
+                </Link>
             </div>
 
 

@@ -2,6 +2,7 @@ import React from 'react'
 import './Auto3.css'
 import Carousel, { slidesToShowPlugin } from '@brainhubeu/react-carousel';
  import '@brainhubeu/react-carousel/lib/style.css';
+ import { Link } from 'react-router-dom';
 function Auto3() {
     return (
         <div className='deny'>
@@ -24,7 +25,7 @@ function Auto3() {
   ]}
 >
  <div className='dop'>
-      <a href="/">
+  <Link to="/menfootwear">
 <div className='nuy'>
   <img src="https://rukminim1.flixcart.com/image/150/150/kjhgzgw0-0/shoe/4/0/c/cj0291-100nike-10-nike-white-black-flash-crimson-oracle-aqua-original-imafzfg4srdt4s5y.jpeg?q=70" alt='lo'/>
 </div>
@@ -33,7 +34,7 @@ function Auto3() {
 <div className='num'>Min 60% Off</div>
 <div className='sells'>Running Shoes</div>
 </div>
-</a>
+</Link>
 </div>
 
    
