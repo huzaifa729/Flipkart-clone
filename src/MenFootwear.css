@@ -1,0 +1,83 @@
+.navs{
+    /* display: flex;
+    position: relative; */
+    padding-top: 60px;
+    /* box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+    background-color: white;
+      min-height: 40px; */
+      width: 100%;   
+}
+
+.nave{
+  display: flex;
+   position: relative; 
+  margin-left: 30px;
+}
+
+.one-opt{
+    padding: 2px 18px;
+     font-family: Georgia, 'Times New Roman', Times, serif; 
+     font-size: 16px;
+     margin-top: 5px;
+     position: relative;
+}
+
+
+ .one-opt:hover{
+    color: #2874f0;
+    
+} 
+
+
+.down-side{
+    left: 5%;
+     position: absolute; 
+     visibility: hidden; 
+    opacity: 0; 
+    width: 1200px;
+    background-color: white;
+    /* box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);  */
+     box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4); 
+      transition: all 0.4s ease;  
+    z-index: 5;
+    top: 93px;
+    height: 300px;
+     position: fixed; 
+     box-sizing: border-box;
+}
+
+.down-hill{
+    float: left;
+    margin-right: 1%;
+    margin-left: 25px;
+    padding: 2px 61px;
+}
+
+.one-opt:hover .down-side{
+    visibility: visible;
+    opacity: 3;
+}
+
+.sire{
+    margin-top: 10px;
+    color: grey;
+}
+
+.down-hill li {
+    list-style: none;
+    color: black;
+    padding: 5px;
+}
+
+.down-hill a{
+    color: black;
+    text-decoration: none;
+}
+
+.navs .nave .one-opt:last-child{
+    margin-right: 0;
+}
+
+.down-hill:last-child{
+    margin-right: 0;
+}
