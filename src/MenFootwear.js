@@ -342,63 +342,63 @@ function MenFootwear() {
              <span className='six'>Home & Furniture <KeyboardArrowDownIcon fontSize="small" className="down-iscon"/></span>
              <div className='down-side'>
                 <div className='down-hill'>
-                    <h6 className='sire'>Mobile</h6>
+                    <h6 className='sire'>Kitchen Storage</h6>
 
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
+                    <li><a href="/">Water Bottles</a></li>
+                    <li><a href="/">Lunch Boxes</a></li>
+                    <li><a href="/">Flasks</a></li>
+                    <li><a href="/">Casseroles</a></li>
+                    <li><a href="/">Kitchen Containers</a></li>
+                    <li><a href="/">Cleaning Supplies</a></li>
+                    <li><a href="/">Dinner Set</a></li>
                 </div>
 
                 <div className='down-hill'>
-                    <h6 className='sire'>Mobile</h6>
+                    <h6 className='sire'>Living Room Furniture</h6>
 
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
+                    <li><a href="/">Sofa</a></li>
+                    <li><a href="/">Sofa Beds</a></li>
+                    <li><a href="/">TV Units</a></li>
+                    <li><a href="/">Dining Tables</a></li>
+                    <li><a href="/">Chairs</a></li>
+                    <li><a href="/">Coffee Tables</a></li>
+                    <li><a href="/">Shoe Racks</a></li>
                 </div>
 
                 <div className='down-hill'>
-                    <h6 className='sire'>Mobile</h6>
+                    <h6 className='sire'>Furnishing</h6>
 
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
+                    <li><a href="/">Beedsheets</a></li>
+                    <li><a href="/">Curtains</a></li>
+                    <li><a href="/">Cushion & Pillows</a></li>
+                    <li><a href="/">Blankets</a></li>
+                    <li><a href="/">Bath & Towel</a></li>
+                    <li><a href="/">Kitch & Table Linen</a></li>
+                    <li><a href="/">Floor Coverings</a></li>
                 </div>
 
                 <div className='down-hill'>
-                    <h6 className='sire'>Mobile</h6>
+                    <h6 className='sire'>Home Decor</h6>
 
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
+                    <li><a href="/">Paintings</a></li>
+                    <li><a href="/">Clocks</a></li>
+                    <li><a href="/">Wall Shelves</a></li>
+                    <li><a href="/">Sticker</a></li>
+                    <li><a href="/">Showpieces</a></li>
+                    <li><a href="/">Flugrines</a></li>
+                    <li><a href="/">Wall Lamp</a></li>
                 </div>
 
                 <div className='down-hill'>
-                    <h6 className='sire'>Mobile</h6>
+                    <h6 className='sire'>Gardening Store</h6>
 
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
+                    <li><a href="/">Stainless Steel Store</a></li>
+                    <li><a href="/">Milton</a></li>
+                    <li><a href="/">Bombay Dyeing</a></li>
+                    <li><a href="/">Home Town</a></li>
+                    <li><a href="/">Ajanta</a></li>
+                    <li><a href="/">Prestige</a></li>
+                    <li><a href="/">Spaces By Welspun</a></li>
                 </div>
              </div>
            </div>
@@ -407,63 +407,62 @@ function MenFootwear() {
              <span className='seven'>Sports,Books&More<KeyboardArrowDownIcon fontSize="small" className="down-iscon"/></span>
              <div className='down-side'>
                 <div className='down-hill'>
-                    <h6 className='sire'>Mobile</h6>
+                    <h6 className='sire'>Sports</h6>
 
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
+                    <li><a href="/">Cricket</a></li>
+                    <li><a href="/">Basketball</a></li>
+                    <li><a href="/">Football</a></li>
+                    <li><a href="/">Skating</a></li>
+                    <li><a href="/">Swimming</a></li>
+                    <li><a href="/">Hiking</a></li>
+                    <li><a href="/">Camping</a></li>
                 </div>
 
                 <div className='down-hill'>
-                    <h6 className='sire'>Mobile</h6>
+                    <h6 className='sire'>Food Essentials</h6>
 
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
+                    <li><a href="/">Nuts & Dry Fruits</a></li>
+                    <li><a href="/">Chocolates</a></li>
+                    <li><a href="/">Snack Corner</a></li>
+                    <li><a href="/">Gifting Combos</a></li>
+                    <li><a href="/">Sweets Store</a></li>
+                    <li><a href="/">Breakfast items</a></li>
+                    <li><a href="/">Tea Coffee</a></li>
                 </div>
 
                 <div className='down-hill'>
-                    <h6 className='sire'>Mobile</h6>
+                    <h6 className='sire'>Books</h6>
 
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
+                    <li><a href="/">Entrance Exams</a></li>
+                    <li><a href="/">Academics</a></li>
+                    <li><a href="/">Non Fiction</a></li>
+                    <li><a href="/">Young Readers</a></li>
+                    <li><a href="/">Self-Help</a></li>
+                    <li><a href="/">E-Learning</a></li>
+                    <li><a href="/">Preorder</a></li>
                 </div>
 
                 <div className='down-hill'>
-                    <h6 className='sire'>Mobile</h6>
+                    <h6 className='sire'>Auto Accessories</h6>
 
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
+                    <li><a href="/">Car Audio/Video</a></li>
+                    <li><a href="/">Car Mobile Accessories</a></li>
+                    <li><a href="/">Car & Bike Car</a></li>
+                    <li><a href="/">Helmets</a></li>
+                    <li><a href="/">Riding Gears</a></li>
+                    <li><a href="/">Vechile Lubricants</a></li>
+                    <li><a href="/">Safety Products</a></li>
                 </div>
 
                 <div className='down-hill'>
-                    <h6 className='sire'>Mobile</h6>
+                    <h6 className='sire'>Gaming</h6>
 
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
-                    <li><a href="/">Van</a></li>
+                    <li><a href="/">Gaming Consoles</a></li>
+                    <li><a href="/">Gaming Accessories</a></li>
+                    <li><a href="/">PS4 Games</a></li>
+                    <li><a href="/">Smart Glasses (VR)</a></li>
+                    <li><a href="/">Grocery (Only in Select Cities)</a></li>
+                    
                 </div>
              </div>
            </div>

@@ -5,21 +5,26 @@
     /* box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
     background-color: white;
       min-height: 40px; */
-      width: 100%;   
+      width: 100%;  
+      
 }
 
 .nave{
+    background-color: white;
   display: flex;
    position: relative; 
-  margin-left: 30px;
+  
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%); 
+  min-height: 40px;
 }
 
 .one-opt{
     padding: 2px 18px;
-     font-family: Georgia, 'Times New Roman', Times, serif; 
-     font-size: 16px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 18px;
      margin-top: 5px;
      position: relative;
+   
 }
 
 
@@ -29,12 +34,14 @@
 } 
 
 
+
+
 .down-side{
     left: 2%;
      position: absolute; 
      visibility: hidden; 
     opacity: 0; 
-    width: 1300px;
+    width: 1200px;
     background-color: white;
     /* box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);  */
      box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4); 
@@ -50,7 +57,7 @@
     float: left;
     margin-right: 1%;
     margin-left: 25px;
-    padding: 2px 41px;
+    padding: 2px 25px;
 }
 
 .one-opt:hover .down-side{
@@ -61,12 +68,15 @@
 .sire{
     margin-top: 10px;
     color: grey;
+    font-weight: 600;
 }
 
 .down-hill li {
     list-style: none;
     color: black;
     padding: 5px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .down-hill a{
@@ -80,4 +90,8 @@
 
 .down-hill:last-child{
     margin-right: 0;
+}
+
+.one{
+    margin-left: 34px;
 }
