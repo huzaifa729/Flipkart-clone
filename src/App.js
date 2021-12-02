@@ -17,6 +17,8 @@ import {
 } from "react-router-dom";
 
 import MenFootwear from './MenFootwear';
+import Login from './Login';
+import Fotrs from './Fotrs';
 function App() {
   return (
     <Router>
@@ -25,6 +27,13 @@ function App() {
     <Route path="/menfootwear">
       <Header/> 
      <MenFootwear/>
+     </Route>
+
+     <Route path="/login">
+     <Header/> 
+     <MenFootwear/>
+     <Login/> 
+     <Fotrs/>
      </Route>
 
    <Route path="/">

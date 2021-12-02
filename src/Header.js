@@ -44,9 +44,9 @@ function Header() {
                   </div>
 
                   <div className="loginse">
-                      <a href="/">
+                  <Link to="/login">
                       <button className="btner">Login</button>
-                   </a>
+                   </Link>
                       <div className="bint">
                           <div className="sint">
                              <div className="op">

@@ -1,57 +1,9 @@
-.All{
-    margin-top: 50px;
-    margin-left: 20px;
-}
-
-.po{
-    font-size: 20px;
-}
-
-.po a{
-    color: grey;
-    text-decoration: none;
-    margin-left: 4px;
-    font-weight: 500;
-}
-
-.binj{
-    margin-top: 15px;
-}
-
-
-.ki{
-    border-right: 1px solid #333;
-    margin-left: 2px;
-    color: black;
-    text-decoration: none;  
-    padding: 0px 5px;
-    font-size: 14px;
-}
-
-.ki:hover{
-    color: black;
-}
-
-.downi{
-    margin-top: 20px;
-}
-
-.hu{
-    color: #878787;
-    font-weight: 600;
-}
-
-.para{
-    font-size: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
 .footer{
     background-color: #172337;
     width: auto;
     height: 380px;
     color: white;
+    margin-top: 50px;
 }
 
 .rows{
