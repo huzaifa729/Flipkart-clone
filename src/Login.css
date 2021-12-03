@@ -7,8 +7,8 @@
     box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4); 
     /* text-align: center;
     justify-content: center; */
-    width: 700px;
-    height: 400px;
+    width: 720px;
+    height: 440px;
     margin: 0 auto;
     z-index: 5;
     margin-top: 10px;
@@ -62,31 +62,133 @@
     height: auto;
 }
 
-.kipm{
+.kipmn{
    /* margin-top: 30px; */
     margin-left: 50px;
+    margin-top: 20px;
 }
 
-.jiopn{
+
+
+
+.xero {
+     padding-top: 30px; 
     position: relative;
-    border-bottom: 1px solid black;
-     margin-top: 35px; 
+    border-bottom: 1px solid #e0e0e0;
+    margin: 1px 0;
     width: 300px;
-
+   
+  
   }
   
+  .xero input{
+    width: 100%;
+    padding: 0px 5px;
+    height: 40px;
+    font-size: 15px;
+     border: none;
+     background: none;
+     outline: none;
+  }
   
-  .jiopn input{
-       border: none;
-       outline: none;
-       background: none;
-       width: 100%;
-       height: 20px;
+  .xero label{
+    position: absolute;
+    /* top: 65%; */
+    top: 60%;
+    left: 2px;
+    color: rgb(117, 114, 114);
+    /* transform: translateY(-50%); */
+    font-size: 15px;
+     pointer-events: none;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      transition: all 1.2s ease;
+    }
+  
+  .xero span::before{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background: #2874f0;
+    transition: all 0.5s ease;
+  }
+  
+  .xero input:focus ~ label,
+  .xero input:valid ~ label{
+    top: -5px;
+    /* color: #00d09c; */
+  }
+  
+  .xero input:focus ~ span::before,
+  .xero input:valid ~ span::before{
+    width: 100%;
+  
   }
 
-  .jiopn label{
+  .katm{
+      font-size: 11px;
+      margin-top: 12px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: grey;
+}
+
+  .jui{
+      margin-left: 3px;
+      color: #2874f0;
+  }
+
+
+  .katm a{
+      text-decoration: none;
+  }
+
+  .loj{
+      margin-top: 20px;
+  }
+
+  .btnsn{
+      width: 100%;
+      height: 40px;
+      background-color: #fb641b;
+      border: none;
+      color: white;
+      border-radius: 3px;
+  }
+
+  .or{
+      text-align: center;
+      margin-top: 20px;
       color: gray;
-      font-size: 18px;
+      font-weight: 500;
+  }
+
+
+  .req{
+      margin-top: 20px;
+      box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  }
+
+  .bton{
+      width: 100%;
+      height: 40px;
+      border: none;
+      background-color: white;
+      color: #2874f0;
+      text-align: center;
+      font-weight: 500;
+  }
+
+  .New{
+      margin-top: 35px;
+      text-align: center;
+      color: #2874f0;
+      font-weight: 500;
+  }
+
+  .New a{
+      text-decoration: none;
   }
   
 

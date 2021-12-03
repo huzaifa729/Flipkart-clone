@@ -20,19 +20,52 @@ function Login() {
                      </div>
 
 
-                     <div className='kipm'>
+                     <div className='kipmn'>
+                     <div class="xero">
+                <input type="text" required/>
+                       <span></span>
+                  <label>Enter Email/Mobile Number</label>
+                     </div> 
 
-                          <div class="jiopn">
-                          <label>Name</label>
-                        <input type="name" required />
-                        </div>
-                   
-                        <div class="jiopn">
-                          <label>Name</label>
-                        <input type="name" required />
-                        </div>
 
-                     </div>
+                     <div class="xero">
+                <input type="password" required/>
+                       <span></span>
+                  <label>Enter Password</label>
+                    </div> 
+
+
+                 <div className='katm'>
+                 By continuing, you agree to Flipkart's
+                 <a className='jui' target="_blank" href='/'>
+                     Terms of Use
+                 </a>
+                  and
+                <a className='jui' target="_blank" href='/'>
+                    Privacy Policy
+                 </a>
+           </div>
+            
+             <div className='loj'>
+                 <button className="btnsn">Login</button>
+             </div>
+
+             <div className='or'>
+                 OR
+             </div>
+
+             <div className='req'>
+                 <button className="bton">Request OTP</button>
+             </div>
+
+             <div className="New">
+             <a className='flip' target="_blank" href='/'>
+             New to Flipkart? Create an account
+             </a>
+             </div>
+
+</div>
+                
                  {/* </div> */}
               </div>
 
