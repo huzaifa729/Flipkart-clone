@@ -19,6 +19,7 @@ import {
 import MenFootwear from './MenFootwear';
 import Login from './Login';
 import Fotrs from './Fotrs';
+import Take from './Take';
 function App() {
   return (
     <Router>
@@ -27,6 +28,7 @@ function App() {
     <Route path="/menfootwear">
       <Header/> 
      <MenFootwear/>
+     <Take/>
      </Route>
 
      <Route path="/login">
