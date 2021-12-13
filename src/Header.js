@@ -15,6 +15,7 @@ import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 import { Link } from 'react-router-dom';
 
+
 function Header() {
     return (
         <div className="header">
@@ -114,7 +115,7 @@ function Header() {
                   <div className="cart">
                    <ShoppingCartIcon fontSize="small" className="cart-logo"/>
                    <span className="opt">Cart</span>
-                  </div>
+                 </div>
           </div>
         </div>
     )

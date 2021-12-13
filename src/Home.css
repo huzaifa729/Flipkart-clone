@@ -1,0 +1,10 @@
+ .home-row{
+    display: flex;
+   z-index: -1; 
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+   padding-top: 10px;
+}  

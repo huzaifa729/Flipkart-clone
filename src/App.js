@@ -20,6 +20,11 @@ import MenFootwear from './MenFootwear';
 import Login from './Login';
 import Fotrs from './Fotrs';
 import Take from './Take';
+import Slidese from './Slidese';
+
+
+
+
 function App() {
   return (
     <Router>
@@ -29,7 +34,9 @@ function App() {
       <Header/> 
      <MenFootwear/>
      <Take/>
-     </Route>
+   <Slidese/>
+ 
+ </Route>
 
      <Route path="/login">
      <Header/> 

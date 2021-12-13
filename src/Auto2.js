@@ -17,7 +17,8 @@ function Auto2() {
      'infinite',
     'arrows',
     {
-      resolve: slidesToShowPlugin,
+     
+       resolve: slidesToShowPlugin,
       options: {
         numberOfSlides:4
       }
