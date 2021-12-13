@@ -25,6 +25,8 @@ import Slidese from './Slidese';
 
 
 
+
+
 function App() {
   return (
     <Router>
@@ -34,7 +36,7 @@ function App() {
       <Header/> 
      <MenFootwear/>
      <Take/>
-   <Slidese/>
+ <Slidese/>
  
  </Route>
 

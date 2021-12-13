@@ -21,7 +21,7 @@ import Home from './Home';
    }
  };
 
- const Slidese = () =>{
+ const Slidese = ({ title, price, image}) =>{
   return(
  
  <Carousel
@@ -31,7 +31,6 @@ import Home from './Home';
    responsive={responsive}
    infinite={true}
    keyBoardControl={true}
- 
    autoPlaySpeed={1000}
   
  >
@@ -39,10 +38,13 @@ import Home from './Home';
     {/* <div> <Home/></div>
     <div> <Home/></div>
     <div> <Home/></div> */}
-    <Home/>
- 
+    
+  <Home/>
 
- </Carousel>
+
+</Carousel>
+
+
 
  
   )
