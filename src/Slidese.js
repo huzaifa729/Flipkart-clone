@@ -40,7 +40,8 @@ import Home from './Home';
     <div> <Home/></div> */}
     
   <Home/>
-
+  <Home/>
+  <Home/>
 
 </Carousel>
 
