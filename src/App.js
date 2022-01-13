@@ -19,8 +19,9 @@ import {
 import MenFootwear from './MenFootwear';
 import Login from './Login';
 import Fotrs from './Fotrs';
-import Take from './Take';
+  import Take from './Take';
 import Slidese from './Slidese';
+import FlipkartShoping from './FlipkartShoping';
 
 
 
@@ -35,17 +36,24 @@ function App() {
     <Route path="/menfootwear">
       <Header/> 
      <MenFootwear/>
-     <Take/>
+     <Take/>  
  <Slidese/>
  
  </Route>
 
      <Route path="/login">
      <Header/> 
-     <MenFootwear/>
+      <MenFootwear/> 
      <Login/> 
      <Fotrs/>
      </Route>
+
+
+     <Route path="/flipkartshoping">
+     <Header/> 
+     <MenFootwear/> 
+     <FlipkartShoping/> 
+   </Route>
 
    <Route path="/">
      <Header/>

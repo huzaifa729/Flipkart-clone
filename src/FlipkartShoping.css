@@ -1,0 +1,19 @@
+.mixer{
+    display: flex;
+   
+    height: max-content;
+    padding: 12px;
+}
+
+
+.left-side{
+    /* background-color: rgb(235, 219, 190); */
+    border-right: 2px solid black;
+  
+}
+
+.right-side{
+    background-color: antiquewhite;
+    /* text-align: right; */
+
+}
