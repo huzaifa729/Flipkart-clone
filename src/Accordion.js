@@ -1,61 +1,36 @@
-import React, { useState } from 'react';
-import './Accordion.css';
+import React from 'react'
 
-export default function App() {
-  const [active, setActive] = useState(-1);
-  const accordian = [
-    {
-      title: 'Accordion 1',
-
-      paras: [
-        'Hinr',
-        'Tinr',
-        'Hinr',
-        'Tinr',
-        'Hinr',
-        'Tinr',
-      ],
-    },
-    {
-      title: 'Accordion 2',
-      paras: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.',
-      ],
-    },
-    {
-      title: 'Accordion 3',
-      paras: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.',
-      ],
-    },
-  ];
-
-  const handleClick = (index) => {
-    if (index === active) setActive(-1);
-    else setActive(index);
-  };
-
+function Accordion() {
   return (
     <div>
-      <ul className="accordian">
-        {accordian.map((item, index) => {
-          return (
-            <li
-              key={index}
-              onClick={() => handleClick(index)}
-              className={index === active ? 'active' : ''}
-            >
-              <div className="accordian-title">{item.title}</div>
-              <div className="accordian-content">
-                {item.paras.map((para) => {
-                  return <p><input type="checkbox"/> {para} </p>;
-                })}
-              </div>
-            </li>
-          );
-        })}
-      </ul>
+      <Accordion defaultActiveKey="0">
+  <Accordion.Item eventKey="0">
+    <Accordion.Header>Accordion Item #1</Accordion.Header>
+    <Accordion.Body>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="1">
+    <Accordion.Header>Accordion Item #2</Accordion.Header>
+    <Accordion.Body>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </Accordion.Body>
+  </Accordion.Item>
+</Accordion>
     </div>
-  );
+  )
 }
+
+export default Accordion

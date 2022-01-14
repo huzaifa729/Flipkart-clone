@@ -43,3 +43,36 @@
     margin-left: 10px;
     margin-top: 5px;
 }
+
+
+
+.Discount{
+    margin-top: 20px;
+ 
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+.ao input{
+   
+    margin: 0px 6px;
+}
+
+.ao{
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+.stars{
+   color:#000000;
+   font-size: 3px;
+   display: flex;
+   margin-top: -5px;
+}
+
+

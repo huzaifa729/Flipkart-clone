@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Collection from './Collection'
-import Accordion from './Accordion'
+  // import Accordion from './Accordion'
 import './FlipkartShoping.css'
 
 function FlipkartShoping(id, img, title, price) {
@@ -9,7 +9,7 @@ function FlipkartShoping(id, img, title, price) {
         <div className='mixer'>
            <div className='left-side'>
              <Collection/>
-             <Accordion/>
+              {/* <Accordion/>   */}
            </div>
 
            <div className='right-side'>
