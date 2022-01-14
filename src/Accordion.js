@@ -1,16 +1,20 @@
 import React, { useState } from 'react';
 import './Accordion.css';
 
-export default function Accordion() {
+export default function App() {
   const [active, setActive] = useState(-1);
   const accordian = [
     {
       title: 'Accordion 1',
+
       paras: [
-        ' hello',
-       'hint',
+        'Hinr',
+        'Tinr',
+        'Hinr',
+        'Tinr',
+        'Hinr',
+        'Tinr',
       ],
-  
     },
     {
       title: 'Accordion 2',
@@ -44,9 +48,8 @@ export default function Accordion() {
             >
               <div className="accordian-title">{item.title}</div>
               <div className="accordian-content">
-                  <input type="checkbox"/>
                 {item.paras.map((para) => {
-                  return <p>{para}</p>;
+                  return <p><input type="checkbox"/> {para} </p>;
                 })}
               </div>
             </li>

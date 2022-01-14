@@ -1,6 +1,7 @@
 h1,
 p {
   font-family: Lato;
+ 
 }
 
 ul {
@@ -16,6 +17,7 @@ li {
   /* box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
     rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px; */
   overflow: hidden;
+
 }
 
 /* li:first-child {
@@ -53,25 +55,33 @@ body {
   content: '+';
   position: absolute;
   right: 1rem;
-  font-size: 1rem;
+  font-size: 28px;
   font-weight: bold;
+  margin-top: -13px;
 }
 
 li.active .accordian-title::after {
   content: '-';
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .accordian-content {
   height: 0;
  display: flex;
  flex-direction: column;
+
+}
+
+.accordian-content input{
+
+  margin: 5px 4px;
 }
 
 .accordian-content p {
   margin-bottom: 0.5rem;
   display: flex;
 
- 
 }
 
 
