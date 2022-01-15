@@ -1,37 +1,33 @@
 import React from 'react'
-import Home from './Home';
+import './Product.css'
 
-import './Product.css';
-import Slidese from './Slidese';
 
-function Product({ title, price, image}) {
+function Product({ id, image, title, rating, price, cut, offer }){
+
     return (
-         <div className="product">
-         <div className="info">
-    
+        <div className="product">
 
-          <p className="tit"><b>Traits:</b>{title}</p>  
+         <div className='product-all'>
+         <img className="product--images" src={image}alt="" /> 
 
-          <div className="price">
-    
-              <p className="ruppes"><b>₹</b>{price}</p>
+              <p className='title'>{title}</p>
+
+              <p className='ratng'>{rating}</p>
+
+              <div className='rating-price'>
+             <bold>%</bold>
+              <span className='price'>{price} </span>
+               <span className='cut'> <del>{cut}</del></span>
+              <span className='ofer'>{offer}</span>  
+              </div>
+
          </div>
+      
+    </div>
 
-          <div className="product-image">
-           <img src={image} alt=""/>
-          </div>
-
-          <div className="buttos">
-         <a href="/">
-          <button className="btns">View All</button>
-          </a>
-          </div>
-
-     </div>  
-
-</div> 
 
     )
 }
 
 export default Product
+

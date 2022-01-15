@@ -20,7 +20,7 @@ import MenFootwear from './MenFootwear';
 import Login from './Login';
 import Fotrs from './Fotrs';
   import Take from './Take';
-import Slidese from './Slidese';
+// import Slidese from './Slidese';
 import FlipkartShoping from './FlipkartShoping';
 
 
@@ -37,7 +37,7 @@ function App() {
       <Header/> 
      <MenFootwear/>
      <Take/>  
- <Slidese/>
+ {/* <Slidese/> */}
  
  </Route>
 
