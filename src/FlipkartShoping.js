@@ -22,7 +22,7 @@ function FlipkartShoping() {
                     title="StealODeal Silver Torch 6 in 1 Multitool Heavy Car Key"
                     rating="3.5★"
                     price="124"
-                    cut="44"
+                    cut="434"
                     offer="65% off"
                    />
 
