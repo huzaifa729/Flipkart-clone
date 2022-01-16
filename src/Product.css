@@ -34,4 +34,111 @@
 
 
 
+/* .product-all{
+    height: 450px;
+   width: 100%;
+   object-fit: contain;
+   margin-bottom: 15px;
+} */
+
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    margin: 10px;
+    max-height: 450px;
+    min-width: 100px;
+    width: 100%;
+     padding: 20px; 
+     background-color:white;
+ }
+
+.product--images{
+     /* max-height: 270px;  */
+    height: 250px; 
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 12px;
   
+
+}
+
+
+.title{
+    /* font-size: 17px; */
+    /* max-width: 260px; */
+     padding-bottom: 1px; 
+    overflow: hidden;
+    font-size: 14px;
+    font-family: Roboto,Arial,sans-serif;
+     font-weight: 550; 
+    display: block;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.product-all{
+    height: 450px;
+   width: 100%;
+   object-fit: contain;
+   margin-bottom: 15px;
+   margin: 0px 26px;
+   /* align-items: center;
+   justify-content: center; */
+   text-align: center;
+}
+
+.ratingse{
+    margin-bottom: 10px;
+}
+
+.ratng{
+    background-color: #1f8535;
+    display: inline-flex;
+    color: white;
+    width: 60px;
+     text-align: center;
+    justify-content: center; 
+    border-radius: 3px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 27px;
+}
+
+
+.strs{
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.assured{
+ width: 100px;
+ margin-left: 15px;
+}
+
+/* .pricen{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+
+.price{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.cut{
+    margin-left: 3px;
+    color: grey;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.ofer{
+    margin-left: 8px;
+    color: green;
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -15,6 +15,7 @@
 .catn{
     display: flex;
     flex-direction: column;
+    width: max-content;
 }
 
 
@@ -48,7 +49,7 @@
 
 .Discount{
     margin-top: 20px;
- 
+    width: max-content;
 }
 
 .text{

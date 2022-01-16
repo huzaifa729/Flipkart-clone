@@ -16,21 +16,30 @@
 .right-side{
      display: flex;
      justify-content: center;
-     max-width: 1500px;  
+       max-width: 1500px;   
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+ 
 }
-/* 
- .homi{
+
+/* .homi{
+    height: 500px;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+ 
+ /* .homi{
      height: 500px;
-    width: 150%;
+    width: 100%;
     margin-left: 5px;
     margin-right: 5px; 
-}   */
+}    */
 
 
 
 .homi-row{
      display: flex; 
     z-index: 1;
+  
 } 

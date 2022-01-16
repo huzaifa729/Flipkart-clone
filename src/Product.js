@@ -1,6 +1,6 @@
 import React from 'react'
 import './Product.css'
-
+import StarIcon from '@mui/icons-material/Star';
 
 function Product({ id, image, title, rating, price, cut, offer }){
 
@@ -12,12 +12,16 @@ function Product({ id, image, title, rating, price, cut, offer }){
 
               <p className='title'>{title}</p>
 
-              <p className='ratng'>{rating}</p>
+           <div className='ratingse'>
+           <span className='ratng'>{rating}<StarIcon className='strs' fontSize='small' /></span>
+           <img className='assured' src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png" alt=''/>
+           </div>
 
-              <div className='rating-price'>
-             <bold>%</bold>
-              <span className='price'>{price} </span>
-               <span className='cut'> <del>{cut}</del></span>
+
+              <div className='pricen'>
+               
+              <span className='price'> <bold>₹</bold>{price} </span>
+               <span className='cut'> <del><bold>₹</bold>{cut}</del></span>
               <span className='ofer'>{offer}</span>  
               </div>
 
