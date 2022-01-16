@@ -68,12 +68,16 @@
 .title{
     /* font-size: 17px; */
     /* max-width: 260px; */
-     padding-bottom: 1px; 
+     /* font-family: cursive; */
     overflow: hidden;
+    padding-bottom: 1px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 14px; */
     font-size: 14px;
-    font-family: Roboto,Arial,sans-serif;
-     font-weight: 550; 
+    font-weight: 550;
+     /* font-family: Roboto,Arial,sans-serif;  */
     display: block;
+    position: relative;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
@@ -100,7 +104,7 @@
      text-align: center;
     justify-content: center; 
     border-radius: 3px;
-    font-size: 1.1rem;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
     height: 27px;

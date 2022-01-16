@@ -60,43 +60,88 @@ function FlipkartShoping() {
 
                  <div className='homi-row'>
                    <Product
-                    id="01"
-                    image="https://rukminim1.flixcart.com/image/612/612/k0flmkw0/key-chain/7/c/a/silver-torch-6-in-1-multitool-heavy-car-stealodeal-original-imafk7nkxxwmtktz.jpeg?q=70"
-                    title="StealODeal Silver Torch 6 in 1 Multitool Heavy Car Key"
-                    rating="3.5"
-                    price="124"
-                    cut="44"
-                    offer="65% off"
+                    id="05"
+                    image="https://rukminim1.flixcart.com/image/612/612/kkmwr680/key-chain/p/g/r/army-keychain-with-torch-screwdriver-knife-bottle-opener-original-imafzxru6gzy4vgb.jpeg?q=70"
+                    title="Flipkart SmartBuy Army Keychain with Torch, Screwdriver..."
+                    rating="4.2"
+                    price="251"
+                    cut="499"
+                    offer="49% off"
                    />
 
               <Product
-                    id="01"
-                    image="https://rukminim1.flixcart.com/image/612/612/k0flmkw0/key-chain/7/c/a/silver-torch-6-in-1-multitool-heavy-car-stealodeal-original-imafk7nkxxwmtktz.jpeg?q=70"
-                    title="StealODeal Silver Torch 6 in 1 Multitool Heavy Car Key"
-                    rating="3.5"
-                    price="124"
-                    cut="44"
-                    offer="65% off"
+                    id="06"
+                    image="https://rukminim1.flixcart.com/image/612/612/k0o69ow0/key-chain/d/y/n/blue-6-in-1-multitool-stealodeal-original-imafkf9tntngvp9t.jpeg?q=70"
+                    title="StealODeal Blue 6 in 1 Multitool Key Chain"
+                    rating="3.9"
+                    price="211"
+                    cut="499"
+                    offer="57% off"
                    />
 
 
                  <Product
-                    id="01"
-                    image="https://rukminim1.flixcart.com/image/612/612/k0flmkw0/key-chain/7/c/a/silver-torch-6-in-1-multitool-heavy-car-stealodeal-original-imafk7nkxxwmtktz.jpeg?q=70"
-                    title="StealODeal Silver Torch 6 in 1 Multitool Heavy Car Key"
-                    rating="3.5"
-                    price="124"
-                    cut="44"
-                    offer="65% off"
+                    id="07"
+                    image="https://rukminim1.flixcart.com/image/612/612/kj0bp8w0-0/key-chain/4/d/5/leather-key-chain-kr-105-hidemade-original-imafyzd5anbfpyg7.jpeg?q=70"
+                    title="HIDEMADE LEATHER KEY CHAIN KR-105 Key Chain"
+                    rating="4.4"
+                    price="153"
+                    cut="899"
+                    offer="82% off"
                    />
 
-<Product
-                    id="01"
-                    image="https://rukminim1.flixcart.com/image/612/612/k0flmkw0/key-chain/7/c/a/silver-torch-6-in-1-multitool-heavy-car-stealodeal-original-imafk7nkxxwmtktz.jpeg?q=70"
-                    title="StealODeal Silver Torch 6 in 1 Multitool Heavy Car Key"
-                    rating="3.5"
-                    price="124"
-                    cut="44"
+             <Product
+                    id="08"
+                    image="https://rukminim1.flixcart.com/image/612/612/kgmla4w0/key-chain/d/6/s/drive-safe-exclusive-metal-keychain-for-lovers-best-friends-original-imafwt2uamjmzctx.jpeg?q=70"
+                    title="eweft Drive Safe Exclusive Metal Keychain For Lovers\ B.."
+                    rating="4.5"
+                    price="152"
+                    cut="299"
+                    offer="64% off"
+                   />
+
+                 </div>
+
+
+                 <div className='homi-row'>
+                   <Product
+                    id="09"
+                    image="https://rukminim1.flixcart.com/image/612/612/krdtlzk0/key-chain/l/9/q/multi-utility-6-in-1-torch-flipkart-smartbuy-original-imag56zckvvqppxq.jpeg?q=70"
+                    title="Flipkart SmartBuy Multi-Utility 6 in 1 Torch Key Chain."
+                    rating="4.1"
+                    price="249"
+                    cut="499"
+                    offer="50% off"
+                   />
+
+              <Product
+                    id="10"
+                    image="https://rukminim1.flixcart.com/image/612/612/k3g73bk0/key-chain/j/z/c/black-carabiner-hook-military-keychain-with-torch-screwdriver-original-imafmky7y953fqna.jpeg?q=70"
+                    title="Flipkart SmartBuy Black Carabiner Hook Military Keychai."
+                    rating="4.1"
+                    price="287"
+                    cut="499"
+                    offer="42% off"
+                   />
+
+
+                 <Product
+                    id="11"
+                    image="https://rukminim1.flixcart.com/image/612/612/k391w280/key-chain/x/s/v/doctor-strange-eye-marvel-avengers-infinity-war-time-stone-original-imafmfhvuweqzfkv.jpeg?q=70"
+                    title="MASHKI Doctor Strange Eye Marvel Avengers Infinity War."
+                    rating="4.1"
+                    price="142"
+                    cut="376"
+                    offer="62% off"
+                   />
+
+             <Product
+                    id="12"
+                    image="https://rukminim1.flixcart.com/image/612/612/k7jdg280/key-chain/f/r/f/pubg-bullet-kar98-keychain-with-golden-kar98-sniper-new-key-ring-original-imafpr9f94srkzru.jpeg?q=70"
+                    title="MASHKI PUBG Bullet & Kar98 Keychain with Golden Kar98 S.."
+                    rating="3.8"
+                    price="170"
+                    cut="499"
                     offer="65% off"
                    />
 
