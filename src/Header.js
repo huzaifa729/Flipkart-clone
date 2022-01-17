@@ -14,9 +14,11 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 import { Link } from 'react-router-dom';
+import { useStateValue } from './StateProvider';
 
 
 function Header() {
+  const [{cart},dispatch] = useStateValue();
     return (
         <div className="header">
           <div className="Bgcolr">
@@ -111,10 +113,10 @@ function Header() {
                       </div>
                   </div>
 
-
+               
                   <div className="cart">
                    <ShoppingCartIcon fontSize="small" className="cart-logo"/>
-                   <span className="opt">Cart</span>
+                   <span className="opt">Cart  <span className='len'>{cart.length}</span> </span>
                  </div>
           </div>
         </div>

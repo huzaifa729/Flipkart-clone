@@ -78,6 +78,10 @@
      /* font-family: Roboto,Arial,sans-serif;  */
     display: block;
     position: relative;
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
+    /* white-space: nowrap;
+    width: 50%; */
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
@@ -108,6 +112,8 @@
     font-weight: 500;
     margin-bottom: 10px;
     height: 27px;
+
+    
 }
 
 

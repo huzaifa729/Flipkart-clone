@@ -1,11 +1,30 @@
 import React from 'react'
 import './Product.css'
 import StarIcon from '@mui/icons-material/Star';
+import { useStateValue } from './StateProvider';
 
 function Product({ id, image, title, rating, price, cut, offer }){
 
+     const [{cart}, dispatch] =  useStateValue();
+
+      console.log("inside the cart",cart);
+      const addtoCart = ()=>{
+          dispatch({
+              type:"ADD-TO-CART",
+              item:{
+                  id:id,
+                  image:image,
+                  title:title,
+                  rating:rating,
+                  price:price,
+                  cut:cut,
+                  offer:offer,
+              }
+          });
+      }
+
     return (
-        <div className="product">
+        <div className="product" onClick={addtoCart}>
       <div className='product-all'>
 
          <img className="product--images" src={image}alt="" /> 

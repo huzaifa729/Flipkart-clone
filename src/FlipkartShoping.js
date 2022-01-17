@@ -146,6 +146,51 @@ function FlipkartShoping() {
                    />
 
                  </div>
+
+
+                 <div className='homi-row'>
+                   <Product
+                    id="13"
+                    image="https://rukminim1.flixcart.com/image/612/612/k0y6cnk0/key-chain/n/t/4/romantic-kissing-couple-valentine-friendship-day-mashki-original-imafkjbvhpd2d57d.jpeg?q=70"
+                    title="Shopiora Romantic Couple Love best Collectible and Gift."
+                    rating="4.6"
+                    price="142"
+                    cut="549"
+                    offer="76% off"
+                   />
+
+              <Product
+                    id="14"
+                    image="https://rukminim1.flixcart.com/image/612/612/ksyz8280/key-chain/k/b/e/heart-shaped-metallic-drivesafe-keychain-for-lovers-spouses-original-imag6f7vr4zhctcu.jpeg?q=70"
+                    title="eweft Heart Shaped Metallic Drivesafe Keychain For Love."
+                    rating="4.4"
+                    price="130"
+                    cut="499"
+                    offer="73% off"
+                   />
+
+
+                 <Product
+                    id="15"
+                    image="https://rukminim1.flixcart.com/image/612/612/kh3qkcw0/key-chain/4/z/q/pubg-awm-gun-keychian-combo-of-2-exclusive-premium-quality-original-imafx6a9ywfjgkhg.jpeg?q=70"
+                    title="eweft Pubg AWM Gun Keychian Combo of 2 Exclusive Premium."
+                    rating="3.9"
+                    price="195"
+                    cut="499"
+                    offer="60% off"
+                   />
+
+             <Product
+                    id="16"
+                    image="https://rukminim1.flixcart.com/image/612/612/kvtuxe80/carabiner/h/n/v/fabric-id-tag-with-black-color-ktm-shaded-design-1-avi-original-imag8mxspyzgjbvz.jpeg?q=70"
+                    title="AVI Fabric ID tag with Black Color KTM Shaded Design Locking Key. "
+                    rating="4.2"
+                    price="110"
+                    cut="349"
+                    offer="68% off"
+                   />
+
+                 </div>
                </div>
           </div>
 
