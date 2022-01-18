@@ -172,7 +172,17 @@
 
 
 .len{
-    font-size: 15px;
-    color: red;
-    font-weight: 600;
+     position: absolute; 
+     /* left: 1090px;
+    top: 7px; */
+    text-align: center;
+    border-radius: 7px;
+    width: 18px;
+    height: 18px;
+    background-color: #ff6161;
+    border: 1px solid #fff;
+    font-weight: 400;
+    color: #f0f0f0;
+    line-height: 16px;
+    font-size: 12px;
 }
