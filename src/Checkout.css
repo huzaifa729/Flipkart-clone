@@ -1,0 +1,38 @@
+.checkout{
+    display: flex;
+    background-color: bisque;
+    height: max-content;
+    padding: 10px;
+}
+
+.checkout-left{
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 2px 0px;
+    background-color: white;
+    width: 70%;
+    height: 500px;
+    display: flex;
+}
+.my-cart{
+    color: black;
+    margin-left: 25px;
+    margin-top: 20px;
+  
+}
+
+.cartn{
+    color: black;
+    font-weight: 500;
+
+}
+
+
+.pin{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.checkout-right{
+    background-color: green;
+}
+
+

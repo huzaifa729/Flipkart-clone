@@ -22,6 +22,7 @@ import Fotrs from './Fotrs';
   import Take from './Take';
 // import Slidese from './Slidese';
 import FlipkartShoping from './FlipkartShoping';
+import Checkout from './Checkout';
 
 
 
@@ -53,6 +54,12 @@ function App() {
      <Header/> 
      <MenFootwear/> 
      <FlipkartShoping/> 
+   </Route>
+
+   <Route path="/checkout">
+      <Header/> 
+      <MenFootwear/>  
+      <Checkout/>
    </Route>
 
    <Route path="/">

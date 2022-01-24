@@ -112,10 +112,12 @@
 .cart{
     margin-left: 35px;
     margin-top: 16px;
+    color: white;
 }
 
 .cart-logo{
-    margin-bottom: 6px;  
+    margin-bottom: 6px; 
+    color: white; 
 }
 
 .opt{

@@ -113,11 +113,12 @@ function Header() {
                       </div>
                   </div>
 
-               
+                  <Link to = "/checkout">
                   <div className="cart">
                    <ShoppingCartIcon fontSize="small" className="cart-logo"/>
                    <span className="opt">Cart  <span className='len'>{cart.length}</span> </span>
                  </div>
+                 </Link>
           </div>
         </div>
     )
