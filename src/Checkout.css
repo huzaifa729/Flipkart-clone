@@ -8,29 +8,71 @@
 .checkout-left{
     box-shadow: rgb(0 0 0 / 20%) 0px 1px 2px 0px;
     background-color: white;
-    width: 70%;
-    height: 500px;
+    width: 65%;
+    height: max-content;
     display: flex;
 }
 .my-cart{
     color: black;
     margin-left: 25px;
     margin-top: 20px;
+    width: 50%;
 }
 
 .cartn{
     color: black;
     font-weight: 500;
+    font-size: 20px;
 }
 
 
 .pin{
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 18px;
+   text-align: right;
+  
+  display: flex;
+}
+
+
+.loca{
+    color: grey;
+   font-weight: 600;
+}
+
+
+.ipure{
+    margin-left: 20px;
+    margin-top: -2px;
+ 
+}
+.trtb{
+    border-bottom: 2px solid #2874f0;
+  
+}
+
+.ipure input{
+  border: none;
+    color: grey;
+    font-weight: 600;
+   outline: none;
+}
+
+
+
+.chck{
+    font-weight: 600;
+    color: grey;
 }
 
 .checkout-right{
-    background-color: green;
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 2px 0px;
+    background-color: white;
+    /* width: 25%; */
+    height: max-content;
+    margin-left: 20px;
 }
+
+
+
 
 
