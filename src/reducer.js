@@ -3,6 +3,10 @@
     cart:[],
 }
 
+     export const getcart = (cart) =>
+     cart.reduce((amount,item)=> amount + item.price, 0)
+
+    
 
   const reducer = (state,action)=>{
     console.log(action);

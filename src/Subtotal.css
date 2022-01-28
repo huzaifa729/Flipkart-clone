@@ -1,7 +1,6 @@
 .subtotal{
     display: flex;
     flex-direction: column;
-  
     width: 350px;
     margin-left: 10px;
 }
@@ -16,24 +15,33 @@
     margin-left: 3px;
 }
 
+
 .All-total{
+     display: flex;
+     flex-direction: column; 
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+.bnk{
     display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-top: 5px;
+ 
+      justify-content: space-between; 
+    align-items: flex-start; 
+     margin: 5px 5px; 
 }
 
-
-.onesn{
+.p-r{
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.towes{
-   margin-left: 30%;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
-.priceses{
-    margin-top: 25px;
+.p-v{
+    text-align: right;
+    /* width: 40%; */
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -3px;
 }
