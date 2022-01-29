@@ -1,6 +1,6 @@
 import React from 'react';
 import CurrencyFormat from 'react-currency-format';
-import { getcart } from './reducer';
+import { getcart, gettotal } from './reducer';
 import { useStateValue } from './StateProvider';
 import './Subtotal.css'
 function Subtotal() {
@@ -22,12 +22,12 @@ function Subtotal() {
     
           <div className='bnk'>
          <p className='p-r'>Discount</p>
-             <p className='p-v'>{0}</p>
+             <p className='p-v'>{500}</p>
         </div>
     
          <div className='bnk'>
          <p className='p-r'>Delivery Charges</p>
-             <p className='p-v'>{0}</p>
+             <p className='p-v'>₹{20}</p>
         </div> 
         </div>
     </>
@@ -39,13 +39,6 @@ function Subtotal() {
          thousandSeparator = {true}
          prefix = {"₹"}
 />
-     
-     
-       
-
-
-
-
 </div>
   ) 
 }

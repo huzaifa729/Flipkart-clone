@@ -4,7 +4,7 @@
 }
 
      export const getcart = (cart) =>
-     cart.reduce((amount,item)=> amount + item.price, 0)
+     cart.reduce((amount,item)=> amount + item.price + item.cut, 0)
 
     
 
