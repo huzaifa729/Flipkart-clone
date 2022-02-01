@@ -1,0 +1,93 @@
+.checkoutproduct{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.check--images{
+    object-fit: contain;
+   height: 200px;
+   width: 200px;
+}
+
+
+.left-flex{
+ margin-top: 10px;
+  margin-left: 15px;
+}
+
+
+.headings{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.4px;
+}
+
+
+
+.all-pries{
+    display: flex;
+    margin-top: 5px;
+}
+
+
+.pr-ice{
+    font-size: 20px;
+    font-weight: 500;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: black;
+}
+
+.cut-price{
+    font-size: 18px;
+    margin-left: 16px;
+    color: gray;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2px;
+}
+
+
+.offers-off{
+    margin-left: 15px;
+    font-weight: 500;
+    color: #388e3c;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+
+.appli{
+    margin-left: 15px;
+    font-weight: 500;
+    color: #388e3c;
+    font-size: 18px; 
+    margin-top: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.butn{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+.removebutton{
+    width: 40%;
+    height: 30px;
+    background: none;
+    transition: 1.33s ease-in-out;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.removebutton:hover{
+    background-color: white;
+    border: 3px solid black ;
+   color: black;
+}
+
+

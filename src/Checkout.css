@@ -1,22 +1,32 @@
 .checkout{
     display: flex;
-    background-color: bisque;
+    /* background-color: bisque; */
     height: max-content;
     padding: 10px;
+    background-color: whitesmoke;
 }
 
 .checkout-left{
-    box-shadow: rgb(0 0 0 / 20%) 0px 1px 2px 0px;
+    box-shadow: rgb(0 0 0 / 80%) 0px 1px 2px 0px;
     background-color: white;
-    width: 65%;
+     /* width: 65%;  */
     height: max-content;
-    display: flex;
+    /* display: flex; */
+    width: 100%;
 }
 .my-cart{
     color: black;
     margin-left: 25px;
-    margin-top: 20px;
-    width: 50%;
+
+    width: 60%; 
+}
+
+.All-in-one{
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap; */
+ margin-top: 20px;
+ 
 }
 
 .cartn{
@@ -26,24 +36,25 @@
 }
 
 
-.pin{
+/* .pin{
     margin-top: 18px;
    text-align: right;
-  
-  display: flex;
-}
+    /* display: flex;  */
+    /* margin-left: 5%;
+} */ */
 
 
 .loca{
     color: grey;
    font-weight: 600;
+ 
 }
 
 
 .ipure{
     margin-left: 20px;
     margin-top: -2px;
- 
+  
 }
 .trtb{
     border-bottom: 2px solid #2874f0;
@@ -65,7 +76,7 @@
 }
 
 .checkout-right{
-    box-shadow: rgb(0 0 0 / 20%) 0px 1px 2px 0px;
+    box-shadow: rgb(0 0 0 / 50%) 0px 1px 2px 0px;
     background-color: white;
     /* width: 25%; */
     height: max-content;
@@ -73,6 +84,21 @@
 }
 
 
+.place-order{
+    text-align: right;
+   margin-right: 15px;
+   margin-bottom: 8px;
+}
 
+.ord{
+    width: 20%;
+    height: 35px;
+    text-transform: uppercase;
+    color: white;
+    background: #fb641b;
+    border: none;
+    font-weight: 600;
+    border-radius: 2px;
+}
 
 
