@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
+
+
 import './Login.css';
 
 function Login() {
-     const [email, setEmail] = useState(" ")
-     const [password, setPassword] = useState(" ")
+     const [email, setEmail] = useState('')
+     const [password, setPassword] = useState('')
 
      const signIn = e =>{
        e.preventDefault();
@@ -11,7 +13,17 @@ function Login() {
 
      const register = e =>{
        e.preventDefault();
-    }
+
+       auth
+          .createUserWithEmailAndPassword(email, password)
+          .then((auth)=>{
+              //its successfully created email and password
+              console.log(auth)
+          })
+           .catch(error=> alert(error.message))
+     }
+
+       
 
     return (
         <div>
@@ -24,7 +36,7 @@ function Login() {
                          <div className='in'>
                              <span className='ones'>Get access to your Orders,</span>
                              <span className='tones'>Wishlist and Recommendations</span>
-                         </div>
+                      </div>
                          <div className='mages'>
                          <img src='https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png' alt='m'/>
                          </div>
@@ -74,8 +86,7 @@ function Login() {
                New to Flipkart? Create an account
              </a>
              </div>
-
-</div>
+         </div>
                 
                  {/* </div> */}
               </div>
