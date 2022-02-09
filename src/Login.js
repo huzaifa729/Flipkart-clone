@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Login.css';
 
 function Login() {
+     const [email, setEmail] = useState(" ")
+     const [password, setPassword] = useState(" ")
+
+     const signIn = e =>{
+       e.preventDefault();
+     }
+
+     const register = e =>{
+       e.preventDefault();
+    }
+
     return (
         <div>
               <div className='bold-box'>
@@ -22,15 +33,15 @@ function Login() {
 
                      <div className='kipmn'>
                      <div class="xero">
-                <input type="text" required/>
+                <input type="text" required  value={email} onChange={e => setEmail(e.target.value)} />
                        <span></span>
                   <label>Enter Email/Mobile Number</label>
                      </div> 
 
 
                      <div class="xero">
-                <input type="password" required/>
-                       <span></span>
+                <input type="password" required value ={password} onChange={e => setPassword(e.target.value)}/>
+                        <span></span> 
                   <label>Enter Password</label>
                     </div> 
 
@@ -47,7 +58,7 @@ function Login() {
            </div>
             
              <div className='loj'>
-                 <button className="btnsn">Login</button>
+                 <button type="submit" onClick={signIn} className="btnsn">Login</button>
              </div>
 
              <div className='or'>
@@ -59,8 +70,8 @@ function Login() {
              </div>
 
              <div className="New">
-             <a className='flip' target="_blank" href='/'>
-             New to Flipkart? Create an account
+             <a className='flip' type="submit" onClick={register} target="_blank" href='/'>
+               New to Flipkart? Create an account
              </a>
              </div>
 
