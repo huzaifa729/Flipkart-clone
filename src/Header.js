@@ -15,10 +15,17 @@ import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 import { Link } from 'react-router-dom';
 import { useStateValue } from './StateProvider';
+import { auth } from './firebase';
 
 
 function Header() {
   const [{cart,user},dispatch] = useStateValue();
+
+  const handleAuthentication = () => {
+     if(user){
+         auth.signOut();
+     }
+}
     return (
         <div className="header">
           <div className="Bgcolr">
@@ -46,9 +53,9 @@ function Header() {
                     <SearchIcon className="s-icon"/>
                   </div>
 
-                  <div className="loginse">
-                  <Link to="/login">
-                      <button className="btner">{user ? 'Logout' : 'Login'}</button>
+                  <div className="loginse" onClick={handleAuthentication}>
+                  <Link to= {!user && "/login"}>
+                      <button className="btner">{user ? user.email : 'Login'}</button>
                    </Link>
                       <div className="bint">
                           <div className="sint">
