@@ -23,13 +23,37 @@ import Fotrs from './Fotrs';
 // import Slidese from './Slidese';
 import FlipkartShoping from './FlipkartShoping';
 import Checkout from './Checkout';
-
-
-
-
-
+import { useEffect } from 'react';
+import { auth } from './firebase';
+import { useStateValue } from './StateProvider';
 
 function App() {
+  const [{}, dispatch]  = useStateValue(); 
+
+   useEffect(()=>{
+      //will only run once when app component is loaded.
+      auth.onAuthStateChanged(
+        authUser => {
+          console.log('the user is', authUser);
+       
+        if(authUser){
+            //user just logged in / user was logged in
+            dispatch({
+                type: 'SET_USER',
+                user: authUser
+            })
+        }
+         else{
+               // user logged out
+               dispatch({
+                type: 'SET_USER',
+                user: null
+               })
+         }
+
+        })
+   }, [])
+
   return (
     <Router>
     <div className="App">

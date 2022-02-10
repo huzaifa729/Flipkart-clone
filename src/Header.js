@@ -18,7 +18,7 @@ import { useStateValue } from './StateProvider';
 
 
 function Header() {
-  const [{cart},dispatch] = useStateValue();
+  const [{cart,user},dispatch] = useStateValue();
     return (
         <div className="header">
           <div className="Bgcolr">
@@ -48,7 +48,7 @@ function Header() {
 
                   <div className="loginse">
                   <Link to="/login">
-                      <button className="btner">Login</button>
+                      <button className="btner">{user ? 'Logout' : 'Login'}</button>
                    </Link>
                       <div className="bint">
                           <div className="sint">

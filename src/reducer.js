@@ -1,6 +1,7 @@
 
  export const initialState ={
     cart:[],
+    user: null
 }
 
      export const getcart = (cart) =>
@@ -32,6 +33,12 @@
                       ...state,
                       cart:newCart
                     }
+
+                    case "SET_USER":
+                       return{
+                         ...state,
+                         user: action.user
+                       }
                    default:
                      return state;
            }
