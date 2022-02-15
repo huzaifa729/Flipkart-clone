@@ -1,10 +1,11 @@
 import React from 'react';
+import { useHistory } from 'react-router';
 import './Checkout.css'
 import CheckoutProduct from './CheckoutProduct';
 import { useStateValue } from './StateProvider';
 import Subtotal from './Subtotal';
 function Checkout() {
-
+ const history = useHistory();
  const [{cart},dispatch]  = useStateValue();
   return (
     
@@ -45,7 +46,7 @@ function Checkout() {
        </div>
       
        <div className='place-order'>
-    <button className='ord'>Place Order</button>
+    <button className='ord' onClick={e => history.push('/payment')}>Place Order</button>
 </div>
     </div>
   
