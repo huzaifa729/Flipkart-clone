@@ -2,12 +2,20 @@ import React from 'react'
 import './Payment.css'
 import { useStateValue } from './StateProvider';
 import CheckoutProduct from './CheckoutProduct';
+import Subtotal from './Subtotal';
 
 function Payment() {
     const [{cart,user},dispatch]  = useStateValue();
   return (
     <div className='payment'>
        <div className='payment-container'>
+             {/* login */}
+             <div className='payment-section'>
+               <h3>Login</h3> 
+               <div className='payment-login'> 
+                 <p>{"Huzaifa Dabir:-"} {user?.email}</p>
+            </div> 
+        </div>
            {/* Delivery */}
            <div className='payment-section'>
                <h3>DELIVERY ADDRESS</h3> 
@@ -43,6 +51,10 @@ function Payment() {
  </div>
            
   </div>  
+
+  <div className="payment-right">
+     <Subtotal/>
+  </div>
 </div>
   )
 }

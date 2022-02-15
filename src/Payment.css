@@ -1,8 +1,43 @@
 .payment{
     padding-top: 100px;
-    margin-left: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+.payment-container{
+    width: 60%;
 }
 
 .payment-section{
-    border-bottom: 3px solid black;
+     border-bottom: 2px solid black; 
+    /* margin-top: 35px; */
+    margin-top: 5px;
+    /* box-shadow: rgb(0 0 0 / 50%) 0px 1px 2px 0px;
+    background-color: white; */
+    /* width: 25%; */
+
+}
+
+.payment-section h3{
+    margin-top: 25px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+
+.payment-section p{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 18px;
+}
+
+
+.payment-right{
+    margin-left: 10%;
+    /* margin-left: 50%; */
+    margin-top: 20px;
+    box-shadow: rgb(0 0 0 / 50%) 0px 1px 2px 0px;
+    background-color: white;
+    /* width: 25%; */
+    height: max-content;
 }

@@ -76,8 +76,7 @@
 }
 
 .checkout-right{
-    box-shadow: rgb(0 0 0 / 50%) 0px 1px 2px 0px;
-    background-color: white;
+ 
     /* width: 25%; */
     height: max-content;
     margin-left: 20px;
