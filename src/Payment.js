@@ -4,6 +4,8 @@ import { useStateValue } from './StateProvider';
 import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal';
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
+import { auth } from './firebase';
+import { useHistory } from 'react-router';
 
 function Payment() {
     const [{cart,user},dispatch]  = useStateValue();
@@ -15,6 +17,38 @@ function Payment() {
     const [disabled, setDisabled] = useState(true)
     const [succeeded, setSucceeded] = useState(false)
     const [processing, setProcessing] = useState("") 
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const history = useHistory()
+
+    const signIn = e =>{
+      e.preventDefault();
+
+        auth
+            .signInWithEmailAndPassword(email, password)
+            .then((auth)=>{
+               //its successfully sign in email and password
+              if(auth){
+                   history.push('/') 
+              }
+           })
+            .catch(error=> alert(error.message))
+    }
+
+    const register = e =>{
+      e.preventDefault();
+
+    
+       auth
+       .createUserWithEmailAndPassword(email, password)
+       .then((auth)=>{
+           //its successfully created email and password
+          if(auth){
+               history.push('/') 
+          }
+       })
+        .catch(error=> alert(error.message))
+    }
 
    const handleSubmit = e =>{
 
@@ -32,7 +66,24 @@ function Payment() {
              <div className='payment-section'>
                <h3>Login</h3> 
                <div className='payment-login'> 
-                 <p>{"Huzaifa Dabir:-"} {user?.email}</p>
+                 {/* <p>{"Huzaifa Dabir:-"} {user?.email}</p> */}
+            
+                     <div class="xero">
+                <input type="text" required  value={email} onChange={e => setEmail(e.target.value)} />
+                       <span></span>
+                  <label>Enter Email/Mobile Number</label>
+                     </div> 
+
+                     
+                     <div class="xero">
+                <input type="password" required value ={password} onChange={e => setPassword(e.target.value)}/>
+                        <span></span> 
+                  <label>Enter Password</label>
+                    </div>
+                     <div className='loj'>
+                 <button type="submit" onClick={signIn} className="btnsn">Login</button>
+             </div>
+
             </div> 
         </div>
            {/* Delivery */}
