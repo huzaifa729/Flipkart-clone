@@ -1,58 +1,57 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Payment.css'
 import { useStateValue } from './StateProvider';
 import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal';
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
-import { auth } from './firebase';
-import { useHistory } from 'react-router';
+import axios from 'axios';
+import { getcart } from './reducer';
 
 function Payment() {
     const [{cart,user},dispatch]  = useStateValue();
 
     const stripe = useStripe();
     const elements = useElements()
-
     const [error, setError] = useState(null)
     const [disabled, setDisabled] = useState(true)
     const [succeeded, setSucceeded] = useState(false)
     const [processing, setProcessing] = useState("") 
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
-    const history = useHistory()
+    const [clientSecret, setClientSecret] = useState(true);
+  
+useEffect(()=>{
+  //generate the special stripe secret which allows us to charge a customer
 
-    const signIn = e =>{
-      e.preventDefault();
-
-        auth
-            .signInWithEmailAndPassword(email, password)
-            .then((auth)=>{
-               //its successfully sign in email and password
-              if(auth){
-                   history.push('/') 
-              }
-           })
-            .catch(error=> alert(error.message))
-    }
-
-    const register = e =>{
-      e.preventDefault();
-
-    
-       auth
-       .createUserWithEmailAndPassword(email, password)
-       .then((auth)=>{
-           //its successfully created email and password
-          if(auth){
-               history.push('/') 
-          }
-       })
-        .catch(error=> alert(error.message))
-    }
-
-   const handleSubmit = e =>{
-
+   const getClientSecret = async () => {
+     const response = await axios({
+       method: 'post',
+       //stripe expect total amount in base currencies like
+       url: `/payment/create?total=${getcart(cart) * 100} `
+     });
+     setClientSecret(response.data.clientSecret);
    }
+
+   getClientSecret();
+},[cart])
+   
+
+ 
+
+   const handleSubmit = async (event) =>{
+         event.preventDefaut();
+         setProcessing(true);
+
+      const payload = await stripe.confirmCardPayment(clientSecret, {
+        payment_method:{
+          card: elements.getElement(CardElement)
+        }
+      }).then(({paymentIntent}) =>{
+           setSucceeded(true);
+           setError(null);
+           setProcessing(false);
+
+           history.replace('/orders')
+      })
+}
 
    const handleChange = event =>{
        setDisabled(event.empty);
@@ -66,24 +65,9 @@ function Payment() {
              <div className='payment-section'>
                <h3>Login</h3> 
                <div className='payment-login'> 
-                 {/* <p>{"Huzaifa Dabir:-"} {user?.email}</p> */}
+                 <p>{"Huzaifa Dabir:-"} {user?.email}</p> 
             
-                     <div class="xero">
-                <input type="text" required  value={email} onChange={e => setEmail(e.target.value)} />
-                       <span></span>
-                  <label>Enter Email/Mobile Number</label>
-                     </div> 
-
-                     
-                     <div class="xero">
-                <input type="password" required value ={password} onChange={e => setPassword(e.target.value)}/>
-                        <span></span> 
-                  <label>Enter Password</label>
-                    </div>
-                     <div className='loj'>
-                 <button type="submit" onClick={signIn} className="btnsn">Login</button>
-             </div>
-
+                 
             </div> 
         </div>
            {/* Delivery */}
@@ -122,6 +106,9 @@ function Payment() {
                 <div className='payent-priceContainer'>
                    <button disabled = {processing || disabled || succeeded}><span >{processing ? <p>Processing</p> : "Buy Now"}</span></button>
                 </div>
+
+                  {/* Error */}
+                  {error && <div>{error}</div>}
              </form>
      </div>   
  </div>
@@ -134,4 +121,8 @@ function Payment() {
   )
 }
 
-export default Payment
+export default Payment 
+
+
+
+
