@@ -6,10 +6,11 @@ import Subtotal from './Subtotal';
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import axios from 'axios';
 import { getcart } from './reducer';
+import { useHistory } from 'react-router';
 
 function Payment() {
     const [{cart,user},dispatch]  = useStateValue();
-
+    const history = useHistory()
     const stripe = useStripe();
     const elements = useElements()
     const [error, setError] = useState(null)
