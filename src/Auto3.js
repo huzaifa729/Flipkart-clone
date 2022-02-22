@@ -14,7 +14,7 @@ function Auto3() {
         </div>
         <Carousel
   plugins={[
-     'infinite',
+     
     'arrows',
     {
       resolve: slidesToShowPlugin,

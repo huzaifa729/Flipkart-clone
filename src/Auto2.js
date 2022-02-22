@@ -14,7 +14,7 @@ function Auto2() {
         </div>
         <Carousel
   plugins={[
-     'infinite',
+
     'arrows',
     {
      

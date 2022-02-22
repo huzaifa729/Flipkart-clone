@@ -68,8 +68,8 @@ function Auto() {
         </div>
         <Carousel
   plugins={[
-     'infinite',
-    'arrows',
+
+     'arrows',
     {
       resolve: slidesToShowPlugin,
       options: {

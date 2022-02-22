@@ -125,7 +125,7 @@ function Header() {
                    <ShoppingCartIcon fontSize="small" className="cart-logo"/>
                    <span className="opt">Cart  <span className='len'>{cart.length}</span> </span>
                  </div>
-                 </Link>
+             </Link>
           </div>
         </div>
     )
